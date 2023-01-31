@@ -1,0 +1,62 @@
+:root {
+    --words: rgb(245, 248, 244);
+}
+
+::selection {
+    background-color: aquamarine;
+    color:var(--words);
+}
+
+body {
+    background-color: blueviolet;
+    color: var(--words);
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 0;
+    justify-items: center;
+}
+
+.card {
+    border: black dashed 2px;
+    margin: 2%;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    background-color: rgb(204, 75, 176);
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    border: solid black 1px;
+    border-radius: 5px;
+    position: relative;
+    top: -35px;
+}
+
+p {
+    color: --words;
+    padding-left: 5px;
+    align-items: flex-start;
+}
+
+.box {
+    background-color: aqua;
+    height: 50px;
+    width:  50px;
+    margin: 10px;
+
+}
+
+footer {
+        color: var(--words);
+    text-align: center;
+}
